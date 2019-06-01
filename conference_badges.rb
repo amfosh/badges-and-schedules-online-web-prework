@@ -8,6 +8,8 @@ def batch_badge_maker(attendees)
     new_array.push("Hello, my name is #{name}.")
     end
     return new_array
+  end
+end
 
 def assign_rooms
   new_array = []
@@ -17,6 +19,7 @@ def assign_rooms
     counter += 1
   end
   return new_array
+end
 
 def printer
   batch_badge_maker(attendees).each do |badge|
