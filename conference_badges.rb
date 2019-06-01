@@ -17,7 +17,6 @@ def assign_rooms
     counter += 1
 end
 return new_array
-end
 
 def printer
   batch_badge_maker(attendees).each do |badge|
