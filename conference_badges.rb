@@ -5,5 +5,5 @@ end
 
 def assign_rooms
   attendees.each.do
-  puts "Hello #{name}! You'll be assigned to room"
+  puts "Hello #{name}! You'll be assigned to room #{room assignments}!"
   
