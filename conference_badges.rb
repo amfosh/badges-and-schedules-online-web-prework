@@ -17,4 +17,7 @@ def assign_rooms
     new_array.push("Hello #{name}! You'll be assigned to room #{room assignments}!")
     counter += 1
   end
-end  
+  return new_array
+end
+
+def   
