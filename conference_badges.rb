@@ -5,9 +5,9 @@ end
 def batch_badge_maker(attendees)
   i = []
   attendees.each.do |name|
-    new_array.push("Hello, my name is #{name}.")
+    i.push("Hello, my name is #{name}.")
 end
-return new_array
+return i
   
 def assign_rooms
   x = []
