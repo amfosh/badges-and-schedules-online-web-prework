@@ -6,9 +6,8 @@ def batch_badge_maker(attendees)
   new array = []
   attendees.each.do |name|
     new_array.push("Hello, my name is #{name}.")
-    end
+  end
     return new_array
-    end
   end
 end
 
