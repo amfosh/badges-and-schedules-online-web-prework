@@ -10,7 +10,6 @@ end
 return new_array
 end
   
-
 def assign_rooms
   new_array = []
   counter = 1 
