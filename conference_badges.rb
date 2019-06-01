@@ -10,13 +10,13 @@ end
 return new_array
   
 def assign_rooms
-  new_array = []
+  x = []
   counter = 1 
   attendees.each.do |name|
-    new_array.push("Hello #{name}! You'll be assigned to room #{room assignments}!")
+    x.push("Hello #{name}! You'll be assigned to room #{room assignments}!")
     counter += 1
 end
-return new_array
+return x
 
 def printer
   batch_badge_maker(attendees).each do |badge|
