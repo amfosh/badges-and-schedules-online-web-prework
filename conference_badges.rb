@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_maker[attendees]
+  new array = []
   
 def assign_rooms
   attendees.each.with.index |name index|
